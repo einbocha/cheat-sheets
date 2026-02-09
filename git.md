@@ -22,10 +22,17 @@ git checkout <branch>
 ### Create a new branch
  - Note: creation based on the active state (point in history e.g. headless state)
 ~~~
-git checkout -b branch
+git checkout -b <branch>
 ~~~
 
 ### Combine two branches
-
+ - Let <feature> be the branch you want to reduce into <main>
 ~~~
-git rebase
+git checkout <feature>
+git rebase <main>
+~~~
+
+### Check git history
+~~~
+git log
+~~~

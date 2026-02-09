@@ -1,29 +1,31 @@
-# List running session
+# Tmux
+
+### List running session
 ~~~
 tmux ls
 ~~~
 
-# Connect to session
+### Connect to session
 ~~~
 tmux attach -t session_name
 ~~~
 
-# Create new session
+### Create new session
 ~~~
 tmux new -s session_name
 ~~~
 
-# New increment session
+### New increment session
 ~~~
 tmux new
 ~~~
 
-# Detach from session
+### Detach from session
 1. press "control-b"
 2. release
 3. press "d"
 
-# Delete session
+### Delete session
 ~~~
 tmux attach -t session_name
 exit

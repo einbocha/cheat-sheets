@@ -26,6 +26,13 @@ git checkout -b branch
 ~~~
 
 ### Combine two branches
-
+ - Let <feature> be the branch you want to reduce into <main>
 ~~~
-git rebase
+git checkout <feature>
+git rebase <main>
+~~~
+
+### Check git history
+~~~
+git log
+~~~

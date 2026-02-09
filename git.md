@@ -20,13 +20,13 @@ git checkout <branch>
 ~~~
 
 ### Create a new branch
- - Note: creation based on the active state (point in history e.g. headless state)
+ - Note: creation based on the active state (point in history e.g., headless state)
 ~~~
 git checkout -b <branch>
 ~~~
 
 ### Combine two branches
- - Let feature be the branch you want to reduce into main
+ - Let _feature_ be the branch you want to reduce into _main_
 ~~~
 git checkout <feature>
 git rebase <main>

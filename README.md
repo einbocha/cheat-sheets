@@ -1,4 +1,4 @@
-# Chat Sheets
+# Cheat Sheets
 - Tmux
 - Git
 - Bash

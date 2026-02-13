@@ -1,5 +1,17 @@
 # Git
 
+### Show config
+~~~
+git config --list --show-scope
+~~~
+
+### Set git config user
+- Note: add `--global` to set globally
+~~~
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+~~~
+
 ### Basic commit process
 ~~~
 git commit -m "message"
@@ -26,7 +38,7 @@ git checkout -b <branch>
 ~~~
 
 ### Combine two branches
- - Let _feature_ be the branch you want to reduce into _main_
+ - Let `feature` be the branch you want to reduce into `main`
 ~~~
 git checkout <feature>
 git rebase <main>
